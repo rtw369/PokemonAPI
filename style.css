@@ -1,0 +1,20 @@
+#results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    flex-basis: 16%;
+}
+
+.on {
+    display: block;
+}
+
+.off {
+    display: none;
+}
